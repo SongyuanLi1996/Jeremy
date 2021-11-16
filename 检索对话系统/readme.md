@@ -12,7 +12,7 @@
 实验结果如何预期：
 
 
-![image-20210930150627009](img/README/image-20210930150627009.png)
+![image-20210930150627009](img/readme/image-20210930150627009.png)
 
 
 # Task 2: 检索与排序
@@ -23,7 +23,7 @@
 
 hnsw检索结果：query = '我要转人工'
 
-![image-20211002125238402](img/README/image-20211002125238402.png)
+![image-20211002125238402](img/readme/image-20211002125238402.png)
 
 将召回的结果进行排序，排序模型采用lightGBM进行打分，需要构建的特征包括TF-IDF、BM25、word2vec、FastText、深度匹配特征。(/ranking/)
 
